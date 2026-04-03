@@ -224,6 +224,15 @@ Timeline · Cert · Language Pills
   font-family: 'Syne', sans-serif;
 }
 
+.tl-role {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  font-family: 'Syne', sans-serif;
+  letter-spacing: 0.03em;
+}
+
 .timeline-item h3 {
   font-family: 'Syne', sans-serif;
   font-weight: 700;

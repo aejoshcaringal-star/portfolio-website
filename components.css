@@ -1,7 +1,7 @@
 /* ============================================
-   components.css
-   Buttons · Cards · Skill Bars · About ·
-   Timeline · Cert · Language Pills
+components.css
+Buttons · Cards · Skill Bars · About ·
+Timeline · Cert · Language Pills
    ============================================ */
 
 /* ── BUTTONS ─────────────────────────────────── */
@@ -16,15 +16,15 @@
   border-radius: 8px;
   text-decoration: none;
   letter-spacing: 0.02em;
-  transition: all var(--transition);
-  animation: fadeUp 0.6s ease 0.5s both;
   box-shadow: 0 4px 20px var(--accent-dim);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeUp 0.6s ease 0.5s both;
 }
 
 .btn-primary:hover {
   background: #00b56e;
-  transform: translateY(-3px);
-  box-shadow: 0 8px 28px var(--accent-glow);
+  box-shadow: 0 12px 28px var(--accent-glow);
+  animation: fadeUp 0.6s ease 0.5s both, float 1.8s ease-in-out infinite;
 }
 
 /* ── SOCIAL ICON BUTTONS ── */
